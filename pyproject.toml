@@ -6,8 +6,10 @@ authors = [
     {name = "Pedro Sanches",email = "sanchesmil@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.13"
 dependencies = [
+    "ydata-profiling (>=4.15.0,<5.0.0)",
+    "setuptools (>=76.1.0,<77.0.0)"
 ]
 
 
